@@ -1,15 +1,14 @@
 {
+  "homepage": "https://github.com/suhailmorayur/react-button-Multiplied-by-5.git",
   "name": "countbutton",
-  "homepage": "https://suhailmorayur.github.io/Multiply-button-react-1/",
-
   "private": true,
   "version": "0.0.0",
   "type": "module",
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist",
     "dev": "vite",
     "build": "vite build",
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d build",
     "lint": "eslint . --ext js,jsx --report-unused-disable-directives --max-warnings 0",
     "preview": "vite preview"
   },
